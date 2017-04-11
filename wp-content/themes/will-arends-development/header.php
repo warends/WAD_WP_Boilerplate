@@ -31,21 +31,23 @@
 		    <nav class="navbar navbar-default" role="navigation">
 		        <div class="container">
 		          <div class="navbar-header">
-		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		          </button>
+			          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			          </button>
 							<a class="navbar-brand" href="/">
-								<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Will Arends Development"></a>
+								Will Arends Dev
+								<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Will Arends Development"> -->
+							</a>
 		        </div><!--end navbar-header-->
 
 		          <?php
 		        wp_nav_menu(array (
-								'theme_location' => 'menu-1',
-								'menu_id' => 'primary-menu',
-		            'depth'           =>   2,
+								'theme_location'	=> 'menu-1',
+								'menu_id' 				=> 'primary-menu',
+		            'depth'           =>  2,
 		            'container'       =>  'nav',
 		            'container_class' =>  'navbar-collapse collapse',
 		            'container_id'    =>  'bs-example-navbar-collapse-1',
